@@ -43,6 +43,8 @@ const approaches = [
   },
 ];
 
+// Homeコンポーネントは、**「このページの内容を表示する」**という役割を持つ
+// layout.tsxで定義したRootLayoutコンポーネントの中に、Homeコンポーネントの内容が表示される
 export default function Home() {
   return (
     <>
