@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+//: Metadataは、**「この値はNext.jsが定めたメタデータの構造に従う」**という指定
+// TypeScriptは上記のように、JavaScriptに「型をチェックする仕組み」を加えた言語
 export const metadata: Metadata = {
   title: "蛯名哲也 | Webエンジニア・個人事業主",
   description:
