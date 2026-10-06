@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  background: #ffffff;
+  color: #0f172a;
+  font-family: Arial, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #0f766e;
+  outline-offset: 5px;
+}
+
+@layer components {
+  .section-container {
+    @apply mx-auto max-w-6xl px-6 py-16 sm:py-20;
+  }
+
+  .eyebrow {
+    @apply text-xs font-bold tracking-[0.2em] text-teal-700;
+  }
+
+  .section-title {
+    @apply mt-4 text-2xl font-bold tracking-tight sm:text-3xl;
+  }
+
+  .nav-link {
+    @apply transition-colors hover:text-teal-700;
+  }
+}
