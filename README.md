@@ -7,7 +7,7 @@ Webエンジニア・蛯名哲也の自己紹介、スキル、活動内容を�
 
 ## 公開URL
 
-未公開。Vercelへのデプロイ後に追記します。
+[URL](https://skillboost-01-profile-site.vercel.app/)
 
 ## スクリーンショット
 
@@ -87,11 +87,17 @@ npm run start
 
 ## 達成基準
 
-- [ ] Vercelの公開URLを発行
-- [ ] PageSpeed InsightsのモバイルPerformanceが80以上
-- [ ] スマートフォン実機で表示・操作を確認
-- [ ] GitHubのPublicリポジトリへpush
-- [ ] 意味のあるコミットを5件以上記録
+- [x] Vercelの公開URLを発行
+- [x] PageSpeed InsightsのモバイルPerformanceが80以上
+- [x] スマートフォン実機で表示・操作を確認
+- [x] GitHubのPublicリポジトリへpush
+- [x] 意味のあるコミットを5件以上記録
+
+## 検証結果
+
+- 確認日：2026年10月7日
+- PageSpeed Insights：モバイルPerformance 100
+- スマートフォン実機：表示崩れなし、操作確認済み
 
 測定日・公開URL・スコア・確認端末は、検証後に追記します。
 
